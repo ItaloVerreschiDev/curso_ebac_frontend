@@ -1,0 +1,35 @@
+$corPrincipal:#f5f6fa;
+$corSecundaria:#182C61;
+$corDeFundo: #44bd32;
+$corPBotao: #4cd137;
+$branco: #fff;
+
+.products {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 32.66%);
+    column-gap: 1%;
+    row-gap: 4%;
+    width: 100%;
+
+    img {
+    width: 100%;
+    border-radius: 16px;
+}
+}
+    
+.product-button {
+    display: block;
+    background-color: $corDeFundo;
+    color: $branco;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 8px;
+    margin-top: 8px;
+    text-decoration: none;
+
+    &:hover {
+    background-color: $corPBotao;
+}
+}
+
