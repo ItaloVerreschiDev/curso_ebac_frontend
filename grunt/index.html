@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com 3 Seções</title>
+    <link rel="stylesheet" href="main.min.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao meu site!</h1>
+        <nav>
+            <ul>
+                <li><a href="#secao1">Seção 1</a></li>
+                <li><a href="#secao2">Seção 2</a></li>
+                <li><a href="#secao3">Seção 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="secao1" class="secao">
+        <h2>Seção 1</h2>
+        <p>Esta é a primeira seção do site.</p>
+        <button onclick="mudarCorSecao(1)">Mudar cor</button>
+    </section>
+
+    <section id="secao2" class="secao">
+        <h2>Seção 2</h2>
+        <p>Esta é a segunda seção do site.</p>
+        <button onclick="mudarCorSecao(2)">Mudar cor</button>
+    </section>
+
+    <section id="secao3" class="secao">
+        <h2>Seção 3</h2>
+        <p>Esta é a terceira seção do site.</p>
+        <button onclick="mudarCorSecao(3)">Mudar cor</button>
+    </section>
+
+    <script src="main.min.js"></script> <!-- Arquivo JavaScript -->
+</body>
+</html>
